@@ -1,7 +1,9 @@
 
 
 import styles from '@/app/contact/contact.module.css'
+/* eslint-disable react/no-unescaped-entities */
 import ContactCard from '../component/ContactCard';
+
 import ContactFrom from '../component/ContactFrom';
 
 const contact = () => {

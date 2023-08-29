@@ -1,7 +1,7 @@
 
 
-import styles from '@/app/contact/contact.module.css'
 /* eslint-disable react/no-unescaped-entities */
+import styles from '@/app/contact/contact.module.css'
 import ContactCard from '../component/ContactCard';
 
 import ContactFrom from '../component/ContactFrom';
@@ -14,7 +14,7 @@ const contact = () => {
                 <ContactCard />
 
                 <section className={styles.contact_section}>
-                    <h2>We'd love to hear <span> from you </span></h2>
+                    <h2>We did love to hear <span> from you </span></h2>
                     <ContactFrom />
 
                 </section>

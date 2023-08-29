@@ -101,7 +101,7 @@ const ContactFrom = () => {
           </label>
         </div>
         <div >
-          {status === 'success' && <p className={styles.success_msg}>Thank you for your message!</p>}
+          {status === 'success' && <p className={styles.success_msg}>Thank you for your message</p>}
           {status === 'error' && <p className={styles.error_msg}>There was an error submitting your message. Please try again.</p>}
 
           <button type='submit'>Submit</button>

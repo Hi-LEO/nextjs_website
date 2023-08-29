@@ -4,6 +4,7 @@ import styles from '@/app/styles/common.module.css'
 const page = async () => {
 
   const url = process.env.Rapid_key;
+
   const options = {
     method: 'GET',
     headers: {
